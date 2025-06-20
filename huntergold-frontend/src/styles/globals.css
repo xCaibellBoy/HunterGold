@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto Mono', monospace; /* Will add font import later */
+  background-color: #000000; /* Black */
+  color: #FFFFFF; /* Default text color */
+}
+
+:root {
+  --color-primary-black: #000000;
+  --color-primary-gold: #FFD700;
+  --color-accent-green: #00FF00;
+  --color-accent-red: #FF0000;
+  --font-main: 'Roboto Mono', monospace;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--color-primary-gold);
+}
+
+a {
+  color: var(--color-primary-gold);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Basic button styling to be refined later */
+button {
+  font-family: var(--font-main);
+  background-color: var(--color-primary-gold);
+  color: var(--color-primary-black);
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+input, select {
+  font-family: var(--font-main);
+  padding: 8px;
+  margin: 5px 0;
+  border: 1px solid var(--color-primary-gold);
+  background-color: var(--color-primary-black);
+  color: var(--color-primary-gold);
+}
+
+/* Basic layout for centering content, can be improved */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
